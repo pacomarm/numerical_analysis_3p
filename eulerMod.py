@@ -14,6 +14,5 @@ def eulerMod(N, a, b,alpha):
             temp = w[i-1] + (h)/2 * ( f(t(h,i-1), w[i-1]) + f( t(h,i), w[i-1] + h*f(t(h,i-1), w[i-1])))
             w.append(temp) 
     return w
-
-print(eulerMod(10,0,2,.5))
+    
 
